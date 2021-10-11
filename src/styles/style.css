@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  --color-title: #ff6a28;
+  --color-default-text: #61656d;
+  --bg-square-small: #f0f0f0;
+  --color-text-contrast: #ff6a28;
+  --bg-default-color: #ffffff;
+}
+.container {
+  background-color: #f0f0f0;
+  max-width: 916px;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+
+.main-content {
+  background-color: var(--bg-default-color);
+  width: 798px;
+  margin: 0 auto;
+  padding: 20px 27px 12px 27px;
+  border-radius: 5px;
+  margin-bottom: 37px;
+}
+
+.main-content-title {
+  color: var(--color-title);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.main-content-sub-title {
+  color: var(--color-default-text);
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 14px;
+}
+
+.main-content-img {
+  margin-bottom: 10px;
+}
+.main-content-wrapper {
+  display: flex;
+}
+
+.main-content-square-small {
+  background: var(--bg-square-small);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 9px;
+  width: 118px;
+  padding: 14px 0;
+}
+.main-content-square-small-img {
+  margin-bottom: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.main-content-square-small-text {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--color-default-text);
+}
+
+.main-content-square-small-text-contrast {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--color-text-contrast);
+  font-weight: 700;
+}
+
+.main-content-larger-square {
+  background: var(--bg-square-small);
+  width: 238px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.main-content-larger-square-img {
+  margin-right: 11px;
+}
+.main-content-larger-square-contrast {
+  color: var(--color-text-contrast);
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-content-larger-square-wrapper {
+  flex-direction: column;
+  display: flex;
+}
+
+.main-content-larger-square-text {
+  color: var(--color-default-text);
+  font-size: 14px;
+}
+
+.content-ingredients {
+  width: 798px;
+  margin: 0 59px;
+  background-color: var(--bg-default-color);
+  border-radius: 5px;
+  padding: 15px 27px 20px 27px;
+  margin-bottom: 16px;
+}
+
+.content-ingredients-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.main-content-apron-img {
+  margin-right: 8px;
+  width: 20px;
+}
+.content-ingredients-title {
+  color: var(--color-title);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.ingredient-list {
+  color: var(--color-default-text);
+  font-size: 14px;
+  margin-left: 27px;
+}
+.content-method-of-preparation {
+  width: 798px;
+  background-color: var(--bg-default-color);
+  border-radius: 5px;
+  margin: 0 59px;
+  padding: 20px 20px 33px 27px;
+  margin-bottom: 16px;
+}
+
+.content-method-of-preparation-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+.main-content-pan-img {
+  margin-right: 8px;
+  width: 20px;
+}
+.content-method-of-preparation-title {
+  color: var(--color-title);
+}
+
+.content-method-of-preparation-wrapper-text {
+  color: var(--color-default-text);
+  font-size: 14px;
+  margin-left: 27px;
+}
+.content-additional-information {
+  width: 798px;
+  background: var(--bg-default-color);
+  border-radius: 5px;
+  margin: 0 56px;
+  padding: 23px 22px 21px 22px;
+  margin-bottom: 63px;
+}
+
+.content-additional-information-title {
+  text-transform: uppercase;
+  color: var(--color-default-text);
+  background: var(--bg-square-small);
+  margin-bottom: 16px;
+ text-align: center;
+ font-size: 16px;
+ padding: 8px
+}
+
+.additional-information-text {
+  font-size: 14px;
+  color: var(--color-default-text);
+}
